@@ -1,10 +1,15 @@
 # Class 4: HTML Links, JS Functions, and Intro to CSS Layout
 
+[Today's Code Pen](https://codepen.io/agrampa/pen/eKdqLP?editors=1100)
+
 <a id="top"></a>
 ## Lecture 4
 
 ## Today's Schedule
 - Announcements
+	- Admissions and Marketing are stopping by today around 11:45 a.m.
+	- 401 Instructor Panel Monday at 1:00 p.m. in the main event space
+	- New building code
 	- Keep in mind that the quizzes are open-book, so do use the resources you choose to figure out the answers: books, internet, JS console in your browser, whatever. And remember that the quizzes are preparing you for the 301 entrance exam, which you will take after the last class and right before Project Week.
 - Code Review *[45 minutes]:*
 - [CSS box model + layout](#css) *[45 minutes]:*
