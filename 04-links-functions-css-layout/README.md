@@ -1,5 +1,7 @@
 # Class 4: HTML Links, JS Functions, and Intro to CSS Layout
 
+[Today's Code Pen](https://codepen.io/agrampa/pen/eKdqLP?editors=1100)
+
 <a id="top"></a>
 ## Lecture 4
 
