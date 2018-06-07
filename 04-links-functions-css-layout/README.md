@@ -5,6 +5,7 @@
 
 ## Today's Schedule
 - Announcements
+	- Admissions and Marketing are stopping by today around 11:45 a.m.
 	- 401 Instructor Panel Monday at 1:00 p.m. in the main event space
 	- New building code
 	- Keep in mind that the quizzes are open-book, so do use the resources you choose to figure out the answers: books, internet, JS console in your browser, whatever. And remember that the quizzes are preparing you for the 301 entrance exam, which you will take after the last class and right before Project Week.
