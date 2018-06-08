@@ -5,6 +5,7 @@
 
 ## Today's Schedule
 - Announcements
+	- [Sign up](https://alliegrampa.youcanbook.me) for a one-on-one meeting with me next week. Make sure to use the "Jump to Date" button.
 	- **Reminder:** Weekly surveys will go out to students in email. Your survey responses are very helpful and meaningful to us. Feedback is a gift.
 	- The instructor will have a 15-minute one-on-one meeting with each student during the coming week: this will be an opportunity to review your progress, answer any questions you have, and discuss any topics the instructor sees appropriate, such as your future plans in the program. We will start the process of scheduling those meetings very soon.
 - [Readings and various topics](#readings) *[30 minutes]*
@@ -75,7 +76,6 @@ As a result of completing Lecture 5 of Code 201, students will:
 - Array methods
 - Function declarations vs. function assignments
 - CSS Zen Garden
-- HAMs
 
 <a id="git"></a>
 
