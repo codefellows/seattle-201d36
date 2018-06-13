@@ -1,0 +1,28 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #444;
+}
+
+h1, h2 {
+	color: white;
+}
+
+table {
+	border: 10px solid #4ABDAC;
+	empty-cells: hide;
+}
+
+td {
+	padding: 10px;
+	border-radius: 15px;
+  border: 1px solid black;
+  background: white;
+}
+
+th {
+	background-color: #F7B733;
+	color: #76323F;
+}
