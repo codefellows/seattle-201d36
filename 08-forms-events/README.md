@@ -3,6 +3,8 @@
 <a id="top"></a>
 ## Lecture 8
 
+[Today's Code Pen](https://codepen.io/agrampa/pen/aKyjYx?editors=1010)
+
 ## Today's Schedule
 - Announcements
 - Code Review *[30 minutes]*
