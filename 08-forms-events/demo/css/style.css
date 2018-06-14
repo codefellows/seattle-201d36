@@ -6,7 +6,7 @@ body {
   background: #444;
 }
 
-h1, h2 {
+h1, h2, legend, label {
 	color: white;
 }
 

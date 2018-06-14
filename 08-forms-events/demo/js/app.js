@@ -4,7 +4,10 @@
 var allDogs = [];
 
 // We need to access the table that is in the DOM
-var dogTable = document.getElementById('dogs');
+var dogTable = document.getElementById('dog-table');
+
+// We need to access the form that is in the DOM
+var dogForm = document.getElementById('dog-form');
 
 // We need a constructor to make our dog objects
 function Dog(name, color, breed, nickname) {
@@ -69,14 +72,32 @@ Dog.renderHeader = function() {
   
   // append to the table
   dogTable.appendChild(headerRow);
-}
+};
 
 // It would be nice to have a single function that renders all of the individual dog rows
 Dog.renderAllDogs = function() {
   for(var i in allDogs) {
     allDogs[i].renderRow();
   }
-}
+};
+
+// Callback function for when the form is submitted
+Dog.addNewDog = function(event) {
+  // always put this first, it will prevent the default behavior of the browser, which is to refresh the page when the form is submitted
+  event.preventDefault();
+  var newName = event.target.dogName.value;
+  var newColor = event.target.dogColor.value;
+  var newBreed = event.target.dogBreed.value;
+  var newNickname = event.target.dogNickname.value;
+  
+  new Dog(newName, newColor, newBreed, newNickname);
+  // new Dog('Rosie', 'Tan', 'Lab', 'Rosie-Girl');
+  // new Dog(event.target.dogName.value, event.target.dogColor.value, event.target.dogBreed.value, event.target.dogNickname.value);
+  
+  dogTable.textContent = '';
+  Dog.renderHeader();
+  Dog.renderAllDogs();
+};
 
 // We need to create our Dog instances
 // We can assign these to variables if we are calling methods on a specific instance, such as gary.renderRow()
@@ -86,6 +107,9 @@ new Dog('Charlotte', 'White', 'Westie', 'Goose');
 new Dog('Ollivander', 'Tan', 'French Bulldog', 'Ollie');
 new Dog('Buddy', 'Black', 'Labra-Doodle', '');
 new Dog('Demi', 'Black and White', 'Border Collie', null);
+
+// Add the event listener to the form
+dogForm.addEventListener('submit', Dog.addNewDog);
 
 // Now we need to call our functions: the one for the header row, and the one for generating the individual dog rows
 
