@@ -36,7 +36,7 @@ As a result of completing Lecture 14 of Code 201, students will:
 ## Advanced JS Topics
 
 * [The State of JS](http://stateofjs.com)
-* [2017 Stack Overflow Developer Survey](https://insights.stackoverflow.com/survey/2018)
+* [2018 Stack Overflow Developer Survey](https://insights.stackoverflow.com/survey/2018)
 * [How it Feels to Learn JS in 2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.ygr5pmdqy)
 * [String methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 * [Array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
