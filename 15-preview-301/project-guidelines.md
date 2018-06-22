@@ -33,7 +33,12 @@ Before writing any code, take time to plan with your team. Make sure you are all
 _Why:_
 > When you take the time to plan your project, you ensure that the entire team is on the same page. It can also help you identify any potential problems and how to solve them. It is easier to handle these problems now, instead of when you're in the middle of project week.
 
-Your pitch should include the following:
+### Your pitch should include the following:
+1. [User Stories](#user-stories)
+1. [Wireframes](#wireframes)
+1. [Conflict Plan](#conflict-plan)
+1. [Communication Plan](#communication)
+1. [Project Scope](#project-scope)
 
 #### <a id="user-stories">User Stories</a>
 User stories describe the features of an application based on the target audience. Each user story should map directly to a feature and should focus on who makes up the target audience, what they will gain from the feature, and why this feature is being included in the application. User stories follow the format of "As a ____, I want ____ so that ____."
@@ -380,11 +385,10 @@ Technical merit is graded based on the following criteria:
 
 - Generally useful and functional
   - Works as expected with no bugs
-  - Has at least three distinct pages with clear navigation, one of which is ***must be*** an "About Us" page
+  - Has at least three distinct pages with clear navigation, one of which is must be an "About Us" page
   - Has at least two pages that accept and process user input
   - State is persisted between page reloads
   - Deployed live on the Internet via GitHub Pages
-  - Optional: purchase and connect a domain (as of October  2017, Namecheap.com offers a wide variety of domain names for $0.88).
 
 [Back to top](#top)
 
